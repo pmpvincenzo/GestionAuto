@@ -19,7 +19,7 @@
 			value="/WEB-INF/tiles/footer.jsp" />
 	</definition>
 
-	<definition name="welcome" extends="baseLayout">
+	<definition name="welcome.do" extends="baseLayout">
 		<put-attribute name="title" value="Welcome" />
 		<put-attribute name="body"
 			value="/WEB-INF/jsp/welcome/welcome.jsp" />
@@ -27,8 +27,8 @@
 
 	<definition name="homePage" extends="baseLayout">
 		<put-attribute name="title" value="Home" />
-		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
-		<put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+		<put-attribute name="header" value="/WEB-INF/jsp/homePage/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/homePage/home.jsp" />
 	</definition>
 
 	<definition name="office" extends="baseLayout">

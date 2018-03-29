@@ -66,5 +66,5 @@
 <!--===============================================================================================-->
 	<script src="${pageContext.request.contextPath}/resources/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
+	<script src="${pageContext.request.contextPath}//resources/js/main.js"></script>
 </html>
